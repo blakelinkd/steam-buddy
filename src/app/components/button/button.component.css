@@ -1,0 +1,13 @@
+button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.3rem;
+    color: #f3ffffcb;
+    border-radius: 5px;
+    border-style: none;
+    
+    background-image: linear-gradient(to right top, #16a3ff, #16a3ff, #16a3ff, #16a3ff, #16a3ff); 
+    -webkit-box-shadow: 8px 11px 7px -3px rgba(0,0,0,0.66); 
+    box-shadow: 8px 11px 7px -3px rgba(0,0,0,0.66);
+}

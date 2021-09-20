@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 20px;
+    margin: 3rem 2rem 0rem 2rem;
+}
+
+h1:first-child {
+    font-size: 3rem;
+    color: #193243;
+    font-family: Lato, Courier, monospace;
+    font-weight: italic;
+
+    padding: 0.6rem;
+    
+}
