@@ -1,7 +1,18 @@
 {
-    "/steam-api/*": {
+    
 
-        "target": "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=3&maxlength=300&format=json",
+    "/steam-api/user/*": {
+
+        "target": "https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/*",
+        "secure" : false, 
+        "logLevel": "debug",
+        "changeOrigin": true
+
+    },
+
+    "/steam-api/news/*": {
+
+        "target": "https://api.steampowered.com/",
         "secure" : false, 
         "logLevel": "debug",
         "changeOrigin": true

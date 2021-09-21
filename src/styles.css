@@ -2,22 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap');
 body {
     background: rgb(25,50,67);
+    color: #f3ffffcb;
+
     
     background: linear-gradient(90deg, rgb(241, 241, 241) 50%, rgb(214, 214, 214) 83%);
 }
 
-h1 {
-    color: rgb(rgb(188, 239, 252));
-}
-
-h2 {
-    color: #3BB4F2;
-}
-
-li {
-    color: #3BB4F2;
-
-    
+.b-rad18 {
+    border-radius: 18px;
 }
 
 .container {
@@ -27,4 +19,21 @@ li {
     background: linear-gradient(80deg, #BBF039 5%, #C6FD3D 50%, #9ECA30 83%);
 
 }
+
+.news-item {
+    background: linear-gradient(80deg, #2A9CFB 5%, #217CC7 50%, #144C7A 83%);
+    color: #F3FFFF;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+}
+
+.dashboard {
+    display: flex;
+    border-radius: 18px;
+    box-shadow: 8px 11px 7px -3px rgba(0,0,0,0.66);
+    margin: 2rem;
+    background: linear-gradient(80deg, #BBF039 5%, #C6FD3D 50%, #9ECA30 83%);
+
+}
+
 

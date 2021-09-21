@@ -1,0 +1,13 @@
+<div class="dashboard">
+  <div  class="form">
+    <form>
+      
+    <span class="labelTxt"> Steam Username: </span>
+
+    <input type="text" placeholder="deadlySNiper666"[formControl]="username" />
+    <app-button [btn_mode]="btn_mode" [btn_class]="btn_class" (btnClick)="getFormData()"></app-button>
+  </form>
+  <p>{{ steamavatar }}</p>
+
+  </div>
+</div>

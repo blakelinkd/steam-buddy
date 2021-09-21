@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
 @Component({
   selector: 'app-game-news',
   templateUrl: './game-news.component.html',
@@ -7,14 +8,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class GameNewsComponent implements OnInit {
   
-  
   news! : News;
   constructor(private httpClient: HttpClient) {
     
   }
   
   ngOnInit(): void {
-    this.getNews();
+    //this.getNews();
   }
   
   getNews() {
